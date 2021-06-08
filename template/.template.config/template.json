@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Nick DiChiaro",
+    "classifications": [ "Common", "Worker" ], 
+    "name": "F# Worker Service",
+    "identity": "Template.Worker.FSharp",         
+    "shortName": "fsworker",
+    "tags": {
+      "language": "F#",
+      "type":"project"
+    },
+    "sourceName": "Worker.FSharp"
+  }
