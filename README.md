@@ -4,7 +4,7 @@
 
 A custom template for `dotnet new` to create a new F# worker service project. 
 
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Template.Worker.FSharp)](https://www.nuget.org/packages/Tools.Net.Mongo)
+[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/Template.Worker.FSharp)](https://www.nuget.org/packages/Template.Worker.FSharp)
 
 ## Installing the template
 
