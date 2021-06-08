@@ -24,3 +24,4 @@ To create a project using the fsworker worker, use the [dotnet new](https://docs
 
 By default, a project will be created using the name of the directory `dotnet new` was executed in. To specify the project name use the [-n|--name](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) option
 
+`dotnet new fsworker -n Demo.FSharp.Worker`
