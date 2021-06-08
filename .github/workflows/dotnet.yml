@@ -20,4 +20,4 @@ jobs:
     - name: Pack
       run: dotnet pack --output out --configuration Release
     - name: Deploy
-      run: dotnet nuget .\out\*.nupkg --api-key ${{ secrets.FSWORKER_NUGET }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget ./out/*.nupkg --api-key ${{ secrets.FSWORKER_NUGET }} --source https://api.nuget.org/v3/index.json
