@@ -1,8 +1,10 @@
-name: .NET
+name: .NET Pack | Push
 
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - '**.md'
 
 jobs:
   build:
@@ -19,5 +21,5 @@ jobs:
       run: dotnet restore
     - name: Pack
       run: dotnet pack --output out --configuration Release
-    - name: Deploy
+    - name: Push
       run: dotnet nuget push ./out/*.nupkg --api-key ${{ secrets.FSWORKER_NUGET }} --source https://api.nuget.org/v3/index.json
