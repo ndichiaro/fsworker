@@ -10,7 +10,7 @@ A custom template for `dotnet new` to create a new F# worker service project.
 
 To install fsworker, use the [dotnet new -i|--install](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new) command
 
-`dotnet new -i dotnet new --install Template.Worker.FSharp`
+`dotnet new --install Template.Worker.FSharp`
 
 To install a specific version use `::` followed by the desired version
 
